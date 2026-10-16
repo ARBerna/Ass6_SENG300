@@ -1,4 +1,6 @@
-
+#include <iostream>
+#include <string>
+using namespace std;
 
 int firstLowercase(const string &s, int index = 0)
 {
@@ -18,6 +20,6 @@ int firstLowercase(const string &s, int index = 0)
 int main()
 {
     cout << firstLowercase("HELlo") << endl;
-    cout << firsttLowercase("ABCDEF") << endl;
+    cout << firstLowercase("ABCDEF") << endl;
     cout << firstLowercase("aBC") << endl;
 }
